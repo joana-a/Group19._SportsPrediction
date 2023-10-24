@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Player Information Form</title>
+</head>
+<body>
+    <h1>Player Information Form</h1>
+    <form action="/predict" method="post">
+        <label for="potential">Potential:</label>
+        <input type="number" id="potential" name="potential" required><br><br>
+
+        <label for="value_eur">Value (EUR):</label>
+        <input type="number" id="value_eur" name="value_eur" required><br><br>
+
+        <label for="wage_eur">Wage (EUR):</label>
+        <input type="number" id="wage_eur" name="wage_eur" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="international_reputation">International Reputation:</label>
+        <input type="number" id="international_reputation" name="international_reputation" required><br><br>
+
+        <label for="release_clause_eur">Release Clause (EUR):</label>
+        <input type="number" id="release_clause_eur" name="release_clause_eur" required><br><br>
+
+        <label for="shooting">Shooting:</label>
+        <input type="number" id="shooting" name="shooting" required><br><br>
+
+        <label for="passing">Passing:</label>
+        <input type="number" id="passing" name="passing" required><br><br>
+
+        <label for="dribbling">Dribbling:</label>
+        <input type="number" id="dribbling" name="dribbling" required><br><br>
+
+        <label for="physic">Physic:</label>
+        <input type="number" id="physic" name="physic" required><br><br>
+
+        <label for="goalkeeping_speed">Goalkeeping Speed:</label>
+        <input type="number" id="goalkeeping_speed" name="goalkeeping_speed" required><br><br>
+
+        <label for="power_combined">Power Combined:</label>
+        <input type="number" id="power_combined" name="power_combined" required><br><br>
+
+        <label for="mentality_combined">Mentality Combined:</label>
+        <input type="number" id="mentality_combined" name="mentality_combined" required><br><br>
+
+        <label for="skill_combined">Skill Combined:</label>
+        <input type="number" id="skill_combined" name="skill_combined" required><br><br>
+
+        <label for="attacking_combined">Attacking Combined:</label>
+        <input type="number" id="attacking_combined" name="attacking_combined" required><br><br>
+
+        <label for="movement_combined">Movement Combined:</label>
+        <input type="number" id="movement_combined" name="movement_combined" required><br><br>
+
+        <label for="defending_combined">Defending Combined:</label>
+        <input type="number" id="defending_combined" name="defending_combined" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <h4>{{prediction}}</h4>
+</body>
+</html>
